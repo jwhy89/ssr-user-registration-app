@@ -47,10 +47,17 @@
   /* overflow-y: auto; // TODO: I would have liked to get this to change direction*/
 }
 
+@media (max-height: 687px) {
+  img {
+    display: none;
+  }
+}
+
 img {
   position: static;
   bottom: 0;
 }
+
 ul {
   list-style: none; /* Remove default bullets */
 }
