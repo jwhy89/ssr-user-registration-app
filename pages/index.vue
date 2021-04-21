@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div>
-      <AppHeader />
-    </div>
+    <h1>First Form Goes Here</h1>
   </div>
 </template>
 
@@ -12,8 +10,4 @@ import Vue from 'vue'
 export default Vue.extend({})
 </script>
 
-<style>
-:root {
-  --header-border-bottom: 1px solid#cfdee9;
-}
-</style>
+<style></style>
