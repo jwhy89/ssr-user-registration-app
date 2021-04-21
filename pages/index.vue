@@ -29,8 +29,11 @@
           placeholder="[Required]"
         />
       </div>
-      <button type="reset" class="btn">Cancel</button>
-      <button type="submit" class="btn btn-primary">Next</button>
+      <div class="btn-position">
+        <button type="reset" class="btn">Cancel</button>
+        <div class="divider" />
+        <button type="submit" class="btn btn-primary">Next</button>
+      </div>
     </form>
   </div>
 </template>

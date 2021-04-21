@@ -17,8 +17,11 @@
           <option>5</option>
         </select>
       </div>
-      <button type="reset" class="btn">Cancel</button>
-      <button type="submit" class="btn btn-primary">Next</button>
+      <div class="btn-position">
+        <button type="reset" class="btn">Cancel</button>
+        <div class="divider"></div>
+        <button type="submit" class="btn btn-primary">Next</button>
+      </div>
     </form>
   </div>
 </template>

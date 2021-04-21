@@ -10,8 +10,11 @@
         <img src="~/assets/kcmpdclpdcv.png" alt="Avatar" border-radius="50%" />
         <input id="uploadAvatar" type="file" class="form-control-file" />
       </div>
-      <button type="reset" class="btn">Cancel</button>
-      <button type="submit" class="btn btn-primary">Next</button>
+      <div class="btn-position">
+        <button type="reset" class="btn">Cancel</button>
+        <div class="divider"></div>
+        <button type="submit" class="btn btn-primary">Next</button>
+      </div>
     </form>
   </div>
 </template>

@@ -26,8 +26,11 @@
           border-radius="50%"
         />
       </div>
-      <button type="reset" class="btn">Cancel</button>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="btn-position">
+        <button type="reset" class="btn">Cancel</button>
+        <div class="divider"></div>
+        <button type="submit" class="btn btn-primary">Next</button>
+      </div>
     </form>
   </div>
 </template>
