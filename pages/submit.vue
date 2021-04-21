@@ -29,7 +29,7 @@
       <div class="btn-position">
         <button type="reset" class="btn">Cancel</button>
         <div class="divider"></div>
-        <button type="submit" class="btn btn-primary">Next</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     </form>
   </div>
