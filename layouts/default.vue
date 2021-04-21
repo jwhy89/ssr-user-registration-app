@@ -2,10 +2,8 @@
   <div>
     <AppHeader />
     <main>
-      <div>
-        <SideNav />
-        <Nuxt />
-      </div>
+      <SideNav />
+      <Nuxt class="pages" />
     </main>
   </div>
 </template>
@@ -28,7 +26,9 @@ body {
   font-family: 'Proxima-Nova';
 }
 
-/* main {
-  display: block;
-} */
+.pages {
+  padding-left: 260px;
+  /* z-index: 1;
+  height: calc(100vh - 6.5em); */
+}
 </style>
