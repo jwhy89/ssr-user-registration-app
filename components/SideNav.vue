@@ -15,17 +15,27 @@
           <NuxtLink to="/submit">Submit the form</NuxtLink>
         </li>
       </ul>
-      <img
-        src="~/assets/app-icon.png"
-        alt="App Store Icon"
-        width="350"
-        height="350"
-      />
+      <div id="trim-icon">
+        <img
+          src="~/assets/app-icon.png"
+          alt="App Store Icon"
+          width="350"
+          height="350"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+#trim-icon {
+  width: 250px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 1%;
+  z-index: -1;
+}
+
 .sidenav {
   height: calc(100vh - 6.5em);
   background-image: url('~/assets/side-background.png');
@@ -38,9 +48,8 @@
 }
 
 img {
-  position: absolute;
-  bottom: 20%;
-  z-index: -1;
+  position: static;
+  bottom: 0;
 }
 ul {
   list-style: none; /* Remove default bullets */
