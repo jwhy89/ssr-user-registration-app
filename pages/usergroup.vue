@@ -19,8 +19,10 @@
       </div>
       <div class="btn-position">
         <button type="reset" class="btn">Cancel</button>
-        <div class="divider"></div>
-        <button type="submit" class="btn btn-primary">Next</button>
+        <div class="divider" />
+        <nuxt-link to="/avatar" prefetch>
+          <button type="submit" class="btn btn-primary">Next</button>
+        </nuxt-link>
       </div>
     </form>
   </div>

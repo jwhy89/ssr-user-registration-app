@@ -32,7 +32,9 @@
       <div class="btn-position">
         <button type="reset" class="btn">Cancel</button>
         <div class="divider" />
-        <button type="submit" class="btn btn-primary">Next</button>
+        <nuxt-link to="/usergroup" prefetch>
+          <button type="submit" class="btn btn-primary">Next</button>
+        </nuxt-link>
       </div>
     </form>
   </div>
