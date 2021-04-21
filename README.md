@@ -37,6 +37,7 @@ There were many features that I did not get to within the short time frame. I wo
 1. Add vee-validation for form validation.
 1. Hide SideNav or reorient in horizontal position on smaller screens.
 1. Cancel button should clear global state and redirect to root page.
+1. Pull in json data from assets for the usergroup page.
 1. Implement modal on avatar page.
 1. Bind global state to submit page.
 1. Add another button to navigate back a page.
