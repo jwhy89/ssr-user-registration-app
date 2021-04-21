@@ -33,6 +33,18 @@ form {
   padding-top: 1em;
 }
 
+.btn-position {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+}
+
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
 .pages {
   padding-left: 260px;
   padding-right: 20px;
