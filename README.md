@@ -2,7 +2,9 @@
 
 > A simple registration app done with SSR Nuxt.js.
 
-To see the live demo, [click on this link](https://ssr-user-registration-app.herokuapp.com/).
+To see the live SSR demo, [click on this link](https://ssr-user-registration-app.herokuapp.com/).
+
+To see the live SPA demo, [click on this link](https://jwhy89.github.io/ssr-user-registration-app/).
 
 ## Prerequisites
 
