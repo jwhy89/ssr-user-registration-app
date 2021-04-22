@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fssr-user-registration-app\u002F_nuxt\u002Fstatic\u002F1619091213",layout:"default",error:a,serverRendered:true,routePath:"\u002Fsubmit",config:{_app:{basePath:"\u002Fssr-user-registration-app\u002F",assetsPath:"\u002Fssr-user-registration-app\u002F_nuxt\u002F",cdnURL:a}}}}(null));
