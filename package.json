@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "docker:build": "docker build -t ssr-user-registration-app .",
-    "docker:run": "docker run -p 8080:8080 --name sura ssr-user-registration-app",
+    "docker:run": "docker run -p 3000:3000 --name sura ssr-user-registration-app",
     "docker:start": "docker start sura",
     "docker:stop": "docker stop sura",
     "docker:rm": "docker rm sura",
